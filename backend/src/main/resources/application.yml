@@ -1,0 +1,15 @@
+access-token:
+  private: "access-refresh-token-keys/access-token-private.key"
+  public: "access-refresh-token-keys/access-token-public.key"
+refresh-token:
+  private: "access-refresh-token-keys/refresh-token-private.key"
+  public: "access-refresh-token-keys/refresh-token-public.key"
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://paf:paf@paf.egq2ojx.mongodb.net/SocialMedia
+logging:
+  level:
+    org.springframework.security: DEBUG
+server:
+  port: 9000
